@@ -69,46 +69,22 @@ img:hover {
 	opacity: 0.8;
 }
 
-ul.social {
-	display: block;
-	margin: 5% 0;
-	list-style-type: none;
+.social {
+	display: inline-flex;
+	margin: 2rem 0rem 1rem 30rem;
+	align-content: center;
 	text-align: center;
+
 }
 
-ul.social li{
-	font-size: em;
-	display: inline;
-	padding: 0 2%;
+.facebook,
+.twitter,
+.instagram,
+.github,
+.linkedin {
+	width: 4rem;
+	margin: 0rem 1rem 0rem 1rem;
 }
-
-ul.social li a{
-	color: #666;
-}
-
-ul.social li.facebook a:hover{
-	color: rgb(59,89,152);
-}
-
-ul.social li.twitter a:hover{
-	color: rgb(0,172,237);
-}
-
-ul.social li.instagram a:hover{
-	color: rgb(195,42,163);
-}
-
-ul.social li.youtube a:hover{
-	color: rgb(187,0,0);
-}
-
-ul.social li.github a:hover{
-	color: black;
-}
-
-ul.social li.linkedin a:hover{
-	color: rgb(0,123,182);
-} 
 
 p.copyright {
 	text-align: center;
@@ -127,5 +103,4 @@ p.copyright {
 	img.avatar{margin-top: 15%;}
 	h2.bio{font-size:2.5em;}
 	p.bio{font-size:1.25em; color: #3f7f7c;}
-	ul.social li a{font-size: 0.75em;}
 }
